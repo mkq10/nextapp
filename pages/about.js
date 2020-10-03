@@ -137,7 +137,7 @@ export default function About() {
 
         <div className="section-title">
           <h2>Our Skills</h2>
-          <p>Check our Our Skills</p>
+          <p>Check Our Skills</p>
         </div>
 
         <div className="row skills-content">

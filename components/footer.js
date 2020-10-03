@@ -1,5 +1,6 @@
 export default function Footer () {
     return (
+        <div>
         <footer id="footer">
             <div className="footer-top">
                 <div className="container">
@@ -7,10 +8,8 @@ export default function Footer () {
 
                     <div className="col-lg-3 col-md-6">
                         <div className="footer-info">
-                        <h3>Sailor</h3>
-                        <p>
-                            A108 Adam Street <br/>
-                            NY 535022, USA<br/><br/>
+                        <h3 className="logo">SAI<img src="/assets/img/logo.png" style={{width:"35px", height: "42px"}} alt="" className="img-fluid"/>OR</h3>
+                        <p>Sector F7, Islamabad<br/><br/>
                             <strong>Phone:</strong> +1 5589 55488 55<br/>
                             <strong>Email:</strong> info@example.com<br/>
                         </p>
@@ -27,11 +26,11 @@ export default function Footer () {
                     <div className="col-lg-2 col-md-6 footer-links">
                         <h4>Useful Links</h4>
                         <ul>
-                        <li><i className="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                        <li><i className="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                        <li><i className="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                        <li><i className="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                        <li><i className="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                        <li><i className="bx bx-chevron-right"></i> <a href="/">Home</a></li>
+                        <li><i className="bx bx-chevron-right"></i> <a href="/about">About us</a></li>
+                        <li><i className="bx bx-chevron-right"></i> <a href="/services">Services</a></li>
+                        <li><i className="bx bx-chevron-right"></i> <a href="/portfolio">Terms of service</a></li>
+                        <li><i className="bx bx-chevron-right"></i> <a href="/contact">Privacy policy</a></li>
                         </ul>
                     </div>
 
@@ -65,5 +64,16 @@ export default function Footer () {
                 </div>
             </div>
         </footer>
+        <script src="/assets/vendor/jquery/jquery.min.js"></script>
+        <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+        <script src="/assets/vendor/php-email-form/validate.js"></script>
+        <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+        <script src="/assets/vendor/venobox/venobox.min.js"></script>
+        <script src="/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+        <script src="/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  
+    <script src="/assets/js/main.js"></script>
+        </div>
     );
 };

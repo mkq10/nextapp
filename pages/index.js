@@ -31,7 +31,6 @@ export default function Home() {
         <link href="/assets/vendor/remixicon/remixicon.css" rel="stylesheet"/>
         <link href="/assets/vendor/venobox/venobox.css" rel="stylesheet"/>
         <link href="/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet"/>
-        {/* <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script> */}
         {/* <!-- Template Main CSS File --> */}
         <link href="/assets/css/style.css" rel="stylesheet"/>
       </Head>
@@ -40,17 +39,6 @@ export default function Home() {
       <Mainpage/>
       <Footer />
       <a href="#" className="back-to-top"><i className="icofont-simple-up"></i></a>
-      
-      <script src="/assets/vendor/jquery/jquery.min.js"></script>
-      <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-      <script src="/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-      <script src="/assets/vendor/php-email-form/validate.js"></script>
-      <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-      <script src="/assets/vendor/venobox/venobox.min.js"></script>
-      <script src="/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-      <script src="/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-
-  <script src="/assets/js/main.js"></script>
     </div>
   )
 }
